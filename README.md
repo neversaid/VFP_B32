@@ -13,7 +13,7 @@ The code was adapted from the Javascript implementation of [Thirty-Two] (https:/
   lcEncodedString = loBase32.Encode("Hello world!")
   ? lcEncodedString
   ** Decode the Base32 string
-  lcDecodedString = loBase32.Encode("JBSWY3DPEB3W64TMMQQQ=")
+  lcDecodedString = loBase32.Decode("JBSWY3DPEB3W64TMMQQQ=")
   ? lcDecodedString
 ```
 
@@ -40,7 +40,7 @@ Usage:
 ```xBase
   loBase32 = NewObject("VFP_B32", "vfp_b32.prg")
   ** Decode the Base32 string
-  ? loBase32.Encode("JBSWY3DPEB3W64TMMQQQ=")
+  ? loBase32.Decode("JBSWY3DPEB3W64TMMQQQ=")
 ```
 
 ## If you like this...  
